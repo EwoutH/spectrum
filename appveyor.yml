@@ -3,3 +3,6 @@ build_script:
 
 test_script:
   - gradlew.bat check --info
+  
+cache:
+  - C:\Users\appveyor\.gradle
