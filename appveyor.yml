@@ -1,0 +1,5 @@
+build_script:
+  - gradlew.bat assemble --info
+
+test_script:
+  - gradlew.bat check --info
