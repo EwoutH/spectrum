@@ -1,5 +1,5 @@
 before_build:
- - SET "OS%=="Windows_NT"
+ - SET "OS=Windows_NT"
 
 build_script:
   - gradlew.bat assemble --info
