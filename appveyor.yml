@@ -1,11 +1,15 @@
+env:
+ - gradl: 'gradlew.bat'
+ - gradl: 'build.gradle'
+
 before_build:
  - SET "OS=Windows_NT"
 
 build_script:
-  - gradlew.bat assemble --info
+  - %gradl% --info
 
 test_script:
-  - gradlew.bat check --info
+  - %gradl% check --info
   
 cache:
   - C:\Users\appveyor\.gradle
