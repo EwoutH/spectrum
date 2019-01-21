@@ -7,4 +7,4 @@ podfile: ios/SpectrumKitSample/Podfile.lock
 
 before_install:
  - brew update
- - brew install xctool
+ - brew upgrade xctool
