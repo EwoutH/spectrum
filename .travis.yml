@@ -1,10 +1,4 @@
-os: osx
-osx_image: xcode9.3
 language: objective-c
-xcode_project: ios/SpectrumKitSample/SpectrumKitSample.xcodeproj/project.pbxproj
 
-before_install:
- - brew update
- - brew upgrade cocoapods
-
-podfile: ios/SpectrumKitSample/Podfile.lock
+script:
+  - xctool -workspace ios/SpectrumKitSample.xcworkspace -scheme SpectrumKitSample
