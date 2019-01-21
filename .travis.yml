@@ -1,9 +1,10 @@
 os: osx
 osx_image: xcode9.3
 language: objective-c
+xcode_project: ios/SpectrumKitSample/SpectrumKitSample.xcodeproj/project.pbxproj
+
+podfile: ios/SpectrumKitSample/Podfile.lock
 
 before_install:
  - brew update
  - brew install xctool
-
-xcode_project: ios/SpectrumKitSample/SpectrumKitSample.xcodeproj/project.pbxproj
