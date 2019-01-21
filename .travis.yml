@@ -1,0 +1,5 @@
+os: osx
+osx_image: xcode10.1
+language: objective-c
+
+xcode_project: ios/SpectrumKitSample/SpectrumKitSample.xcodeproj/project.pbxproj
